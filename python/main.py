@@ -25,6 +25,7 @@ private_dsa_key = dsa.generate_private_key(
 )
 
 
+
 private_dsa_key_2 = DSA.generate(bits=KEY_SIZE)
 
 assert(private_dsa_key_2 == private_dsa_key)
